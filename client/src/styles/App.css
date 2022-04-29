@@ -1,0 +1,138 @@
+/*make a flexbox to contain our page elements*/
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #dadada ;
+    padding: 10px;
+    border-radius: 30px;
+}
+/*make the page header have a larger font*/
+#head {
+font-size: 3vw;
+}
+/*style the navbar*/
+#navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    border-color: #e78c14;
+    box-shadow: 0 0 30px #e78c14;
+    padding: 2vh 3vw;
+    margin-right: 1vw;
+}
+/*style our homepage*/
+#homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*style the image on our homepage*/
+#bros {
+    width: 40vw;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    border-color: #e78c14;
+    box-shadow: 0 0 30px #e78c14;
+}
+
+/*style our advertisement*/
+#praise {
+    display: flex;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    border-color: #e78c14;
+    box-shadow: 0 0 30px #e78c14;
+    margin-right: 1vw;
+}
+/*format the lefthand side of the page: The navbar, and advertisement elements*/
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*make a flexbox row to further style our page*/
+#main{
+    display: flex;
+}
+#nav {
+color: white;
+}
+#display {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    border-color: #e78c14;
+    box-shadow: 0 0 30px #e78c14;
+    padding: 2vh 3vw;
+}
+/*style the columns in our table*/
+#username {
+    width: 10vw;
+    text-align: center;
+    text-decoration: underline rgb(216, 156, 26);
+}
+#message {
+    min-width: 20vw;
+    max-width: 35vw;
+    text-align: center;
+    word-wrap: break-word;
+    border: 2px solid rgb(243, 239, 7);
+    border-radius: 50px 50px 50px 0px;
+    padding: 1vh 1vw;
+}
+#date {
+    width: 10vw;
+    text-align: center;
+}
+#delete {
+    width: 10vw;
+    text-align: center;
+}
+/*style the delete buttons*/
+#myButton {
+	box-shadow: -1px 0px 19px 1px #ff5100;
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+	border-radius:11px;
+	border:2px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#c02323;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding: .1vh .3vw;
+	text-decoration:none;
+	text-shadow:-4px 4px 4px #821717;
+}
+#myButton:hover {
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+}
+#myButton:active {
+	position:relative;
+	top:1px;
+}
+/*style our table*/
+#table {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    border-color: #e78c14;
+    box-shadow: 0 0 2px #e78c14;
+    padding: 2vh 3vw;
+}
+/*correctly style our user input elements*/
+#input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vh 2vw;
+}
+/*style the refresh button*/
+#refresh {
+    float: right;
+    margin-right: 3vw;
+}

@@ -1,6 +1,12 @@
-const mongoose = require('mongoose')
+//import mongoose
+const mongoose = require("mongoose");
 
-const Message = new mongoose.Schema({
-})
+// //create a schema for the expected data structure
+const MessageSchema = new mongoose.Schema({
+  userName: String,
+  userMessage: String,
+  currentRoom: String,
+  date: Date,
+});
 
-module.exports = Message
+module.exports = MessageSchema;
